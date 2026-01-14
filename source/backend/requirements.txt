@@ -4,3 +4,4 @@ chalice==1.26.2
 numpy==1.22.0
 aws-lambda-powertools==1.22.0
 PyJWT==2.4.0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
